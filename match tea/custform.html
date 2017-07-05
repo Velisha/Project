@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> Matcha Tea</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- personal stylesheet -->
+  <link rel="stylesheet" type="text/css" href="mystyle.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body onload="loadPage2()">
+  <!-- Fixed Navbar -->
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="Default.html">Matcha Tea</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="Default.html">Home</a></li>
+      <li><a href="Default.html#about">About</a></li>
+      <li><a href="Default.html#benefit">Benefits</a></li>
+      <li><a href="Default.html#product">Products</a></li>
+      <li><a href="Default.html">ContactUs</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Title -->
+<div class="container">
+<h4 id="ordertitle"> <b>Order Form </b></h4>
+</div>
+<!-- Product Image and Details -->
+<div class="container">
+  <img src=" " alt="product Image" id="MyImage1" class="orderImg">
+  <div id="order" class="prodesc">
+          <p id="desc1">  </p>
+          <p id="ship1">  </p>
+          <p id="price1"> </p>
+  </div>        
+</div>
+<!-- form --> 
+<div class="container">
+  <form id="contactForm" class="form-horizontal" method="get" action="confirm.html">
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="FirstName">First Name:</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="fname" placeholder="Enter First Name" required>
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="LastName">Last Name:</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="lname" placeholder="Enter Last Name" required>
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="Address1">Address1:</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="adrs1" placeholder="Apt#/ Street Name" required>
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="Address2">Address2:</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="adrs2" placeholder="City" required>
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="zipcode"> Zipcode </label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="zip" placeholder="Enter Zipcode" required>
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="state"> State </label>
+      <div class="col-sm-10">
+        <select class="form-control" id="state" required>
+          <option> NJ </option>
+          <option> NY </option>
+          <option> CT </option>
+          <option> VA </option>
+          <option> DL </option>
+          <option> IL </option>
+          <option> CA </option>
+        </select>
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="email">Email</label>
+      <div class="col-sm-10">
+        <input type="email" class="form-control" id="email" placeholder="Enter email" required>
+      </div>
+    </div> 
+    <div class="form-group">
+      <div class="col-sm-offset-2 col-sm-10">
+        <button type="submit" class="btn btn-default button" id="mybutton" value="send" onclick="confirm();"> Confirm </button>
+      </div>
+    </div>
+  </form>
+</div> 
+<!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2016 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
+
+    </div><!-- /.container -->
+     
+<script src="myscript.js"></script>
+
+</body>
+</html>

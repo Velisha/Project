@@ -1,0 +1,71 @@
+body{
+	font-family: Verdana;
+}
+nav li{
+	float: left;
+
+	margin-left: 60px;
+}
+h2{ 
+text-align: center;
+}
+#slideimage{
+	height: 500px;
+	width: 100%;
+	
+}
+
+#aboutDetail{
+	margin-top: 10px;
+	text-align: center;
+	line-height: 25px;
+	font-size: 16px;
+	font-family: Verdana;
+	text-indent: 50px;
+
+}
+ #benefit {
+ 	text-align: justify;
+ 	font-size: 16px;
+ 	line-height: 20px;
+ 	margin-left: 20px;
+ }
+
+.button{
+	background-color: #99B82F;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 50px;
+    cursor: pointer;
+}
+
+#mybutton{
+	margin-left: 350px;
+
+}
+#ordertitle{
+	text-align: center;
+}
+.orderImg{
+	width: 300px;
+	height: 250px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.prodesc{
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+}
+
+.orderImage{
+    width: 300px;
+    height: 250px;
+    margin-left: 37%;
+}
